@@ -1,0 +1,92 @@
+body, p, h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+header {
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    border: solid blue 3px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0px 5px;
+    
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+/* ------------First Image----------- */
+.firstImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.firstImage img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.firstImage h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ------------Second Image----------- */
+
+.secondImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.secondImage img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.secondImage h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ------------Third Image----------- */
+
+.thirdImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thirdImage img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.thirdImage h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ------------Footer----------- */
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
