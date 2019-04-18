@@ -120,6 +120,20 @@ body {
     text-align: center;
 }
 
+/* ------------Bookings----------- */
+.packages h1 {
+    color: orange;
+}
+
+.packages h2 {
+    color: yellow;
+}
+
+.packages h3 {
+    color: coral;
+}
+
+
 
 /* ------------Footer----------- */
 
