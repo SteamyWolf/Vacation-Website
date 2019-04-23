@@ -38,6 +38,15 @@ nav ul li a:hover {
     color: green;
 }
 
+body h1 {
+    padding-left: 15px;
+    margin-bottom: 9px;
+}
+
+body h2 {
+    padding: 20px;
+}
+
 body {
     background-color: black;
     color: white;
