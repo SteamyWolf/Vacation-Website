@@ -143,17 +143,85 @@ body {
 
 
 /* ------------Bookings----------- */
-.packages h1 {
+.spainPackage h1 {
     color: orange;
 }
 
-.packages h2 {
+.spainPackage h2 {
     color: yellow;
 }
 
-.packages h3 {
+.spainPackage h3 {
     color: coral;
 }
+
+.spainPackage .price1 {
+    padding-top: 45px;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
+
+.spainPackage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.spainPackage img {
+    width: 60vw;
+    height: 60vh;
+}
+
+.package1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.package1Img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thailandPackage {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.thailandPackage img {
+    width: 60vw;
+    height: 60vh;
+}
+
+.package2Img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.package2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.thailandPackage h1 {
+    color: orange;
+}
+
+.thailandPackage h2 {
+    color: yellow;
+}
+
+.thailandPackage h3 {
+    color: coral;
+}
+
+.thailandPackage .price2 {
+    padding-top: 45px;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
+
+
 
 /* ------------Maps----------- */
 
