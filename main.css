@@ -221,7 +221,44 @@ body {
     font-size: 2rem;
 }
 
+.chinaPackage {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
+.package3Img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.package3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.chinaPackage img {
+    width: 60vw;
+    height: 60vh;
+}
+
+.thailandPackage h1 {
+    color: orange;
+}
+
+.chinaPackage h2 {
+    color: yellow;
+}
+
+.chinaPackage h3 {
+    color: coral;
+}
+
+.chinaPackage .price3 {
+    padding-top: 45px;
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+}
 
 /* ------------Maps----------- */
 
