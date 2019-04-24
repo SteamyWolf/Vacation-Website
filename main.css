@@ -163,6 +163,15 @@ body {
     padding-left: 5vw;
     padding-right: 5vw;
     border: none;
+    margin-bottom: 20px;
+}
+
+.wyattvid {
+    width: 90vw;
+    height: 80vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border: none;
 }
 
 
