@@ -168,6 +168,7 @@ body {
 .spainPackage {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .spainPackage img {
@@ -178,6 +179,7 @@ body {
 .package1 {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .package1Img {
@@ -188,6 +190,7 @@ body {
 .thailandPackage {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .thailandPackage img {
@@ -203,6 +206,7 @@ body {
 .package2 {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .thailandPackage h1 {
@@ -227,6 +231,7 @@ body {
 .chinaPackage {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .package3Img {
@@ -237,6 +242,7 @@ body {
 .package3 {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .chinaPackage img {
