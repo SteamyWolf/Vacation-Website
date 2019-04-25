@@ -24,10 +24,13 @@ nav ul {
 nav ul li {
     list-style-type: none;
     padding: 0px 5px;
+    text-decoration: none;
 }
 
 nav ul li a:visited {
     color: yellow;
+    text-decoration: none;
+
 }
 
 nav ul li a:active {
