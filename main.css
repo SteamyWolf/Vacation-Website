@@ -23,6 +23,11 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    list-style-type: none;
     padding: 0px 5px;
     text-decoration: none;
 }
@@ -33,13 +38,14 @@ nav ul li a:visited {
 
 }
 
+nav ul li a:hover {
+    color: green;
+}
+
 nav ul li a:active {
     color: lightblue;
 }
 
-nav ul li a:hover {
-    color: green;
-}
 
 body h1 {
     padding-left: 15px;
