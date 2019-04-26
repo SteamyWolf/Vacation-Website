@@ -24,7 +24,42 @@
         </ul>
     </nav>
 
-    
+    <form action="FormToEmail.php" method="POST" enctype="multipart/form-data" name="profileForm" class="formInfo">
+        <fieldset>
+            <legend>Personal Info:</legend>
+            <label>
+                <span>First Name: </span><input type="text" name="first-name" placeholder="Ex. Leroy" required class="userInfo">
+            </label>
+            <label>
+                <span>Last Name: </span><input type="text" name="last-name" placeholder="Ex. Jenkins" required class="userInfo">
+            </label>
+            <label>
+                <span>Email: </span><input type="email" name="email" placeholder="Ex. leroyjenkins@myemail.com" required class="userInfo">
+            </label>
+            <label>
+                <span>Phone: </span><input type="tel" name="phone" placeholder="344-555-4579" required pattern="[0-9-. ]{10,14}" class="userInfo">
+            </label>
+            <label>
+                <span>Date of Birth: </span><input type="date" name="age" required class="userInfo">
+            </label>
+        </fieldset>    
+        
+        <label id="callMenu">
+            <span>Would you like us to call, email, or both?</span>
+            <select name="owner" class="userInfo">
+                <option value="Call">Call</option>
+                <option value="Email">Email</option>
+                <option value="Both">Both</option>
+            </select>
+        </label>
+        <fieldset class="commentBoxFieldset">
+            <label>Tell us how we can improve our site.</label>
+            <textarea columns="5" rows="3" class="commentBox"></textarea>
+        </fieldset>
+
+        <input type="submit" name="submit" value="Submit" class="submitButton">
+        <input type="hidden" name="subject" value="Profile Creation">
+        <input type="hidden" name="redirect" value="thanks.html">
 
 
 </body>
